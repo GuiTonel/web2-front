@@ -1,9 +1,8 @@
-function Login(request, response) {
+function Login(req, res) {
     return (
         <div>
-            <h>
-                login
-            </h>
+
+            <h>Login</h>
         </div>
     );
 }

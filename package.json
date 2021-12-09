@@ -1,5 +1,5 @@
 {
-  "name": "web2_front",
+  "name": "web2-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,6 @@
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
-    "router-dom": "^2.2.6",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

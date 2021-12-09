@@ -1,14 +1,11 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Login from './pages/login'
-import Home from './pages/home'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-function Index() {
-  return (
-    <Router>
-      <Route path="/login" component={Login} />
-      <Route path="/" component={Home} />
-    </Router>
-  );
-}
-
-export default Index;
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
